@@ -1,0 +1,58 @@
+$body_color: #262626;
+$component_background: #1c1c1c;
+$primary_color: #faad14;
+
+.block {
+  display: flex;
+  align-items: center;
+  background-color: $body_color;
+  height: 100vh;
+}
+
+.block__form {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: $component_background;
+  border: 5px solid $primary_color;
+  box-shadow: 3px 5px 10px 0 $primary_color;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form__cardNumber {
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+    color: #D8000C;
+}
+
+.form__small {
+  display: flex;
+  width: auto;
+  margin-bottom: 15px;
+}
+
+.form__date {
+  width: 50%;
+}
+
+.form__date > input {
+  width: 75%;
+}
+
+.form__cvv {
+  width: 50%;
+}
+
+.form__cvv > input {
+  width: 75%;
+}
+
+.form__buttons {
+    display: flex;
+    justify-content: space-between;
+}
